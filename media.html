@@ -1,0 +1,135 @@
+---
+layout: compare
+---
+
+{% capture wpapi %}
+{% highlight json %}{
+	"ID": 318,
+	"title": "Timezone Widget",
+	"status": "inherit",
+	"type": "attachment",
+	"author": {
+		"ID": 1,
+		"username": "admin",
+		"name": "Ryan McCue",
+		"first_name": "Ryan",
+		"last_name": "McCue",
+		"nickname": "rmccue",
+		"slug": "admin",
+		"URL": "http://ryanmccue.info/",
+		"avatar": "http://0.gravatar.com/avatar/c57c8945079831fa3c19caef02e44614?s=96",
+		"description": "",
+		"email": "me@ryanmccue.info",
+		"registered": "2009-11-02T12:06:51+00:00",
+		"meta": {
+			"links": {
+				"self": "http://journal.ryanmccue.info/wp-json/users/1",
+				"archives": "http://journal.ryanmccue.info/wp-json/users/1/posts"
+			}
+		}
+	},
+	"content": "<p class=\"attachment\"><a href='http://journal.ryanmccue.info/wp-content/uploads/2014/02/ss-2014-02-11-at-08.20.39.jpg'><img width=\"227\" height=\"236\" src=\"http://journal.ryanmccue.info/wp-content/uploads/2014/02/ss-2014-02-11-at-08.20.39.jpg\" class=\"attachment-medium\" alt=\"Timezone Widget\" /></a></p>\n",
+	"parent": 317,
+	"link": "http://journal.ryanmccue.info/317/beginnings/ss-2014-02-11-at-08-20-39/",
+	"date": "2014-02-11T21:31:28+11:00",
+	"modified": "2014-02-11T21:31:28+w11:00",
+	"format": "standard",
+	"slug": "ss-2014-02-11-at-08-20-39",
+	"guid": "http://journal.ryanmccue.info/wp-content/uploads/2014/02/ss-2014-02-11-at-08.20.39.jpg",
+	"excerpt": null,
+	"menu_order": 0,
+	"comment_status": "open",
+	"ping_status": "open",
+	"sticky": false,
+	"date_tz": "Etc/GMT+11",
+	"date_gmt": "2014-02-11T10:31:28+00:00",
+	"modified_tz": "Etc/GMT+11",
+	"modified_gmt": "2014-02-11T10:31:28+00:00",
+	"password": "",
+	"title_raw": "Timezone Widget",
+	"content_raw": "",
+	"excerpt_raw": "",
+	"guid_raw": "http://journal.ryanmccue.info/wp-content/uploads/2014/02/ss-2014-02-11-at-08.20.39.jpg",
+	"post_meta": [],
+	"meta": {
+		"links": {
+			"self": "http://journal.ryanmccue.info/wp-json/media/318",
+			"author": "http://journal.ryanmccue.info/wp-json/users/1",
+			"collection": "http://journal.ryanmccue.info/wp-json/media",
+			"replies": "http://journal.ryanmccue.info/wp-json/media/318/comments",
+			"version-history": "http://journal.ryanmccue.info/wp-json/media/318/revisions",
+			"up": "http://journal.ryanmccue.info/wp-json/media/317"
+		}
+	},
+	"terms": [],
+	"source": "http://journal.ryanmccue.info/wp-content/uploads/2014/02/ss-2014-02-11-at-08.20.39.jpg",
+	"is_image": true,
+	"attachment_meta": {
+		"width": 227,
+		"height": 236,
+		"file": "2014/02/ss-2014-02-11-at-08.20.39.jpg",
+		"sizes": {
+			"thumbnail": {
+				"file": "ss-2014-02-11-at-08.20.39-150x150.jpg",
+				"width": 150,
+				"height": 150,
+				"mime-type": "image/jpeg",
+				"url": "http://journal.ryanmccue.info/wp-content/uploads/2014/02/ss-2014-02-11-at-08.20.39-150x150.jpg"
+			}
+		},
+		"image_meta": {
+			"aperture": 0,
+			"credit": "",
+			"camera": "",
+			"caption": "",
+			"created_timestamp": 0,
+			"copyright": "",
+			"focal_length": 0,
+			"iso": 0,
+			"shutter_speed": 0,
+			"title": ""
+		}
+	}
+}
+{% endhighlight %}
+{% endcapture %}
+
+{% capture dotcom %}
+{% highlight json %}{
+	"id": 318,
+	"title": "Timezone Widget",
+	"date": "2014-02-11T21:31:28+11:00",
+	"parent": 317,
+	"link": "http://journal.ryanmccue.info/wp-content/uploads/2014/02/ss-2014-02-11-at-08.20.39.jpg",
+	"caption": "",
+	"description": "",
+	"metadata": {
+		"width": 227,
+		"height": 236,
+		"file": "2014/02/ss-2014-02-11-at-08.20.39.jpg",
+		"sizes": {
+			"thumbnail": {
+				"file": "ss-2014-02-11-at-08.20.39-150x150.jpg",
+				"width": 150,
+				"height": 150,
+				"mime-type": "image/jpeg"
+			}
+		},
+		"image_meta": {
+			"aperture": 0,
+			"credit": "",
+			"camera": "",
+			"caption": "",
+			"created_timestamp": 0,
+			"copyright": "",
+			"focal_length": 0,
+			"iso": 0,
+			"shutter_speed": 0,
+			"title": ""
+		}
+	}
+}
+{% endhighlight %}
+{% endcapture %}
+
+{% include comparison.html %}
